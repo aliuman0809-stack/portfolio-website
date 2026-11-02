@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Professional Full-Stack Web Developer Portfolio. BSCS Graduate specializing in React, Java, and Spring Boot." />
+  <title>Portfolio Website | Full-Stack Developer</title>
+  
+  <!-- FAVICON -->
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- BACKGROUND GLOW EFFECTS -->
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">Portfolio<span> Website</span></div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    
+    <div class="nav-actions">
+      <button id="theme-toggle" class="theme-btn" title="Toggle Theme">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+      <div class="menu-toggle" id="menuToggle"><i class="fa-solid fa-bars"></i></div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <div class="typewriter-container">
+        <h1><span id="typewriter"></span><span class="cursor">|</span></h1>
+      </div>
+
+      <p>I'm a Full-Stack Developer & BSCS Graduate. I build fast, modern, and scalable web applications using React, Java, and Spring Boot.</p>
+      
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">Explore My Work <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#contact" class="btn btn-secondary">Hire Me</a>
+      </div>
+    </div>
+    
+    <div class="hero-image">
+      <div class="image-wrapper">
+        <div class="image-ring"></div>
+        <img src="images/profile.png" alt="Aqsa Urooj">
+      </div>
+      <div class="image-caption">
+        <h3>Aqsa Urooj</h3>
+        <p>Full-Stack Developer</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION (BENTO GRID) -->
+  <section id="about" class="section">
+    <h2 class="section-title">About Me</h2>
+    <div class="bento-grid">
+      
+      <div class="bento-item glass-panel item-large">
+        <h3>My Journey</h3>
+        <p>
+          Hello! I'm <strong>Aqsa Urooj</strong>, a passionate Full-Stack Developer and a proud BSCS (Bachelor of Science in Computer Science) graduate. My journey into web development started with a simple curiosity about how websites work, which quickly turned into a deep love for coding and problem-solving.
+        </p>
+        <br>
+        <p>
+          Over the years, I have honed my skills in both <strong>Frontend and Backend</strong> development. I specialize in building complete, end-to-end web applications using <strong>React.js, Java, and Spring Boot</strong>. From designing intuitive user interfaces to creating secure databases, I handle everything. My recent projects, like the <em>Prize Bond Tracker</em> and <em>Student Management System</em>, reflect my ability to build complex, scalable, and real-world applications.
+        </p>
+        <br>
+        <p>
+          I believe that good software is not just about writing code; it's about solving real problems and making life easier for the user. When I'm not coding, I'm constantly learning new technologies to stay ahead in this fast-paced industry. I am ready to bring your ideas to life with clean code and a fresh perspective!
+        </p>
+      </div>
+
+      <div class="bento-item glass-panel item-small">
+        <i class="fa-solid fa-rocket icon-accent"></i>
+        <h3>Fast Delivery</h3>
+        <p>I value your time. I deliver high-quality projects within strict deadlines without any delays.</p>
+      </div>
+
+      <div class="bento-item glass-panel item-small">
+        <i class="fa-solid fa-hand-holding-dollar icon-accent"></i>
+        <h3>Affordable Pricing</h3>
+        <p>As a dedicated developer, I offer premium quality at competitive, student-friendly prices.</p>
+      </div>
+
+      <div class="bento-item glass-panel item-wide">
+        <h3>100% Client Satisfaction</h3>
+        <p>Your vision is my priority. Whether it's a simple portfolio or a complex management system, I adapt to your specific requirements and ensure you are fully satisfied with the final product.</p>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills" class="section">
+    <h2 class="section-title">Tech Stack</h2>
+    <div class="skills-grid">
+      <div class="skill-box glass-panel">
+        <i class="fa-brands fa-react" style="color: #61DAFB;"></i>
+        <span>React.js</span>
+      </div>
+      <div class="skill-box glass-panel">
+        <i class="fa-brands fa-js" style="color: #F7DF1E;"></i>
+        <span>JavaScript</span>
+      </div>
+      <div class="skill-box glass-panel">
+        <i class="fa-brands fa-java" style="color: #f89820;"></i>
+        <span>Java</span>
+      </div>
+      <div class="skill-box glass-panel">
+        <i class="fa-solid fa-leaf" style="color: #6DB33F;"></i>
+        <span>Spring Boot</span>
+      </div>
+      <div class="skill-box glass-panel">
+        <i class="fa-solid fa-database" style="color: #00758F;"></i>
+        <span>SQL Server</span>
+      </div>
+      <div class="skill-box glass-panel">
+        <i class="fa-brands fa-html5" style="color: #E34F26;"></i>
+        <span>HTML / CSS</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects" class="section">
+    <h2 class="section-title">Featured Projects</h2>
+    <div class="projects-grid">
+
+      <!-- Project 1: Prize Bond Tracker -->
+      <div class="project-card glass-panel">
+        <div class="project-img-wrapper">
+          <img src="images/prizebond.png" alt="Prize Bond Tracker">
+        </div>
+        <div class="project-info">
+          <h3>Prize Bond</h3>
+          <p class="tech">React • Spring Boot • SQL Server</p>
+          <p>A comprehensive full-stack web application designed to automate prize bond management. It features admin and user roles, secure authentication, automated prize draws, claims processing, and full audit logging for transparency.</p>
+          
+          <div class="project-actions">
+            <!-- PRIZE BOND LIVE LINK -->
+            <a href="https://my-prize-bond-app.vercel.app" target="_blank" class="btn-project btn-live">
+              Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+            <!-- PRIZE BOND GITHUB LINK -->
+            <a href="https://github.com/aliuman0809-stack/MyPrizeBondApp" target="_blank" class="btn-project btn-github">
+              GitHub <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2: Student Management System -->
+      <div class="project-card glass-panel">
+        <div class="project-img-wrapper">
+          <img src="images/student.png" alt="Student Management System">
+        </div>
+        <div class="project-info">
+          <h3>Student Management System</h3>
+          <p class="tech">React • Java • REST API</p>
+          <p>A robust management dashboard built to streamline student data. It allows administrators to add, edit, search, and manage student records, attendance, and results with a secure database backend and role-based access control.</p>
+          
+          <div class="project-actions">
+            <!-- STUDENT MANAGEMENT LIVE LINK -->
+            <a href="https://student-management-system-aqsa-a036.vercel.app" target="_blank" class="btn-project btn-live">
+              Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+            <!-- STUDENT MANAGEMENT GITHUB LINK -->
+            <a href="https://github.com/aliuman0809-stack/student-management-system" target="_blank" class="btn-project btn-github">
+              GitHub <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3: Smart Web Calculator -->
+      <div class="project-card glass-panel">
+        <div class="project-img-wrapper">
+          <img src="images/calculator.png" alt="Smart Web Calculator">
+        </div>
+        <div class="project-info">
+          <h3>Smart Web Calculator</h3>
+          <p class="tech">HTML • CSS • JavaScript</p>
+          <p>A clean, responsive web calculator with a modern user interface. It supports both mouse and keyboard input, handles complex mathematical operations, and is fully optimized for mobile and desktop devices.</p>
+          
+          <div class="project-actions">
+            <!-- CALCULATOR LIVE LINK -->
+            <a href="https://calculator-app-calculator-frontend.vercel.app" target="_blank" class="btn-project btn-live">
+              Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+            <!-- CALCULATOR GITHUB LINK -->
+            <a href="https://github.com/aliuman0809-stack/calculator-app" target="_blank" class="btn-project btn-github">
+              GitHub <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION (2 BOXES) -->
+  <section id="contact" class="section">
+    <h2 class="section-title">Let's Work Together</h2>
+    
+    <div class="contact-split">
+      
+      <!-- BOX 1: Direct Hire (Fiverr) -->
+      <div class="contact-card glass-panel hire-card">
+        <div class="hire-icon">
+          <i class="fa-solid fa-bolt"></i>
+        </div>
+        <h3>Need it Faster?</h3>
+        <p>Skip the form and hire me directly through Fiverr. It's safe, secure, and fast.</p>
+        
+        <a href="https://www.fiverr.com/s/433o9Vk" target="_blank" class="btn btn-fiverr btn-full">
+          Hire Me on Fiverr <i class="fa-solid fa-briefcase"></i>
+        </a>
+
+        <div class="hire-features">
+          <p><i class="fa-solid fa-check"></i> Fast Delivery</p>
+          <p><i class="fa-solid fa-check"></i> 100% Satisfaction</p>
+          <p><i class="fa-solid fa-check"></i> Secure Payment</p>
+        </div>
+      </div>
+
+      <!-- BOX 2: Contact Form -->
+      <div class="contact-card glass-panel">
+        <div class="contact-header">
+          <h3>Send a Message</h3>
+          <p>Have a project in mind? Fill out the form and I'll get back to you within 24 hours.</p>
+          <p style="margin-top: 1rem; color: var(--text-main); font-weight: 500;">
+            <i class="fa-solid fa-envelope" style="color: var(--primary-color); margin-right: 0.5rem;"></i>
+            aliuman0809@gmail.com
+          </p>
+        </div>
+
+        <form action="https://formspree.io/f/mjygqpbd" method="POST" class="contact-form">
+          <div class="input-group">
+            <input type="text" name="name" placeholder="Your Full Name" required />
+          </div>
+          <div class="input-group">
+            <input type="email" name="email" placeholder="Your Email Address" required />
+          </div>
+          <div class="input-group">
+            <textarea name="message" placeholder="Tell me about your project..." rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+        </form>
+      </div>
+
+    </div>
+
+    <!-- SOCIAL LINKS -->
+    <div class="contact-socials-wrapper">
+      <p class="socials-title">Or connect with me on:</p>
+      <div class="contact-socials">
+        
+        <a href="https://www.fiverr.com/s/433o9Vk" target="_blank" class="social-icon" data-tooltip="Fiverr">
+          <i class="fa-solid fa-briefcase"></i>
+        </a>
+        
+        <a href="https://github.com/aliuman0809-stack" target="_blank" class="social-icon" data-tooltip="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        
+        <a href="https://www.linkedin.com/in/aqsa-urooj-2a160b402" target="_blank" class="social-icon" data-tooltip="LinkedIn">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        
+        <a href="https://tiktok.com/@psychoxdrk" target="_blank" class="social-icon" data-tooltip="TikTok">
+          <i class="fa-brands fa-tiktok"></i>
+        </a>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-content">
+      <div class="logo">Portfolio<span> Website</span></div>
+      <p>© 2026 Aqsa Urooj. Crafted with <i class="fa-solid fa-heart" style="color: #ef4444;"></i> and Code.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
